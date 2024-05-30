@@ -19,33 +19,6 @@ Il est destiné au cours GOL791 à l'Ecole de Techologie Superieure, Montréal, 
 - `shapely` : Pour la manipulation des géométries.
 - `pyarrow` : Pour lire les fichiers parquet.
 
-## Instructions d'Installation
 
-1. Clonez le dépôt :
-    ```sh
-    git clone https://github.com/votre-utilisateur/votre-repo.git
-    cd votre-repo
-    ```
 
-2. Installez les dépendances :
-    ```sh
-    pip install pandas folium matplotlib seaborn osmnx shapely
-    ```
 
-3. Exécutez le notebook :
-    ```sh
-    jupyter notebook main.ipynb
-    ```
-
-## Exemple d'Utilisation
-
-### Chargement et Affichage des Données
-
-```python
-import pandas as pd
-
-route_data_df = pd.read_csv(r"DataBase/route_data.csv")
-actual_sequences_df = pd.read_csv(r"DataBase/actual_sequences.csv")
-
-print(route_data_df.head())
-print(actual_sequences_df.head())
